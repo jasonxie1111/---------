@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "眼睛健康提醒",
+  "version": "1.0",
+  "description": "提醒您休息眼睛和伸展。",
+  "permissions": ["notifications", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
